@@ -32,6 +32,9 @@ class Header extends Component {
                             <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
                                       to="resume"
                                       spy={true} smooth={true} duration={750}>Resume</Link></li>
+                            <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
+                                      to="contact"
+                                      spy={true} smooth={true} duration={750}>Contact</Link></li>
                         </ul>
 
                     </nav>
