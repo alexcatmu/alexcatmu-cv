@@ -17,7 +17,7 @@ class About extends Component {
                     />
                     <div className="row">
                         <div className="three columns">
-                            <img className="profile-pic" src={`images/${this.props.data.image}`} alt="Marc Profile Pic"/>
+                            <img className="profile-pic" src={`images/${this.props.data.image}`} alt={`${this.props.data.name} Profile Pic`}/>
                         </div>
                         <div className="nine columns main-col">
                             <h2>About Me</h2>

@@ -28,8 +28,6 @@ class Footer extends Component {
             );
         }
         else return (<div/>);
-
-
     }
 }
 

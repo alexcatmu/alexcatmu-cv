@@ -1,7 +1,7 @@
-# Marc Soler i Colomer
+# Alex Catalan
 ![ReactJS Resume Website](readme.jpg?raw=true "ReactJS Resume Website")
 
 ## Description
-This is my personal resume website built with React and Redux. I am using @timbakerx React resume website template that can be found <a href="https://github.com/tbakerx/react-resume-template">HERE</a>, but I replaced jQuery, trying to keep the same functionalities with React. 
+This is my personal resume website built with React and Redux. I am using @marcsc3 React resume website template that can be found <a href="https://github.com/marcsc3/marcsc3-cv">HERE</a>. 
 
 

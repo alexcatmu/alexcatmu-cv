@@ -1,37 +1,27 @@
 {
   "main": {
-    "name":"Marc",
-    "fullname":"Marc Soler i Colomer",
+    "name":"Alex",
+    "fullname":"Alex Catalan",
     "occupation":"(Your Occupation Here)",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "m@soler-colomer.com",
-    "phone": "689 492 659",
+    "email": "---------",
+    "phone": "---------",
     "address":{
-      "street":"c/ Sant Raimon de Penyafort, 9",
-      "city":"Arenys de Mar",
+      "street":"---------",
+      "city":"Viladecans",
       "state":"Barcelona",
-      "zip": "08350"
+      "zip": "08840"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://alexcatmu.site",
+    "resumedownload":"http://alexcatmu.site/resumeCV",
     "social":[
       {
-        "name":"twitter",
-        "url":"https://twitter.com/marcsc3_",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/marc-soler-colomer-b4a186141/",
+        "url":"https://www.linkedin.com/in/alex-catalan-munoz",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"https://instagram.com/_marcsoler",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -46,7 +36,13 @@
       {
         "school":"Universitat Politècnica de Catalunya",
         "degree":"Computer Science",
-        "graduated":"September 2017 - January 2022",
+        "graduated":"September 2017 - January 2021",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"IES Calamot",
+        "degree":"DAM (Cross-platform application development)",
+        "graduated":"September 2015 - January 2017",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
@@ -55,6 +51,24 @@
         "company":"Inlab FIB",
         "title":"Full Stack developer",
         "years":"June 2019 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"BSC (Barcelona Supercomputing Center)",
+        "title":"Full Stack developer",
+        "years":"June 2019 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Clickedu",
+        "title":"Full Stack developer",
+        "years":"June 2019 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Ministry of Defence",
+        "title":"Full Stack developer",
+        "years":"October 2013 - October 2015",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
