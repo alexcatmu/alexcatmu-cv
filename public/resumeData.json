@@ -25,7 +25,7 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/marcsc3",
+        "url":"https://github.com/alexcatmu",
         "className":"fa fa-github"
       }
     ]
@@ -41,7 +41,7 @@
       },
       {
         "school":"IES Calamot",
-        "degree":"DAM (Cross-platform application development)",
+        "degree":"DAM (Cross-platform Application Development)",
         "graduated":"September 2015 - January 2017",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
@@ -50,24 +50,23 @@
       {
         "company":"Inlab FIB",
         "title":"Full Stack developer",
-        "years":"June 2019 - Present",
+        "years":"October 2018 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "company":"BSC (Barcelona Supercomputing Center)",
         "title":"Full Stack developer",
-        "years":"June 2019 - Present",
+        "years":"April 2018 - October 2018",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "company":"Clickedu",
         "title":"Full Stack developer",
-        "years":"June 2019 - Present",
+        "years":"April 2016 - April 2018",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "company":"Ministry of Defence",
-        "title":"Full Stack developer",
         "years":"October 2013 - October 2015",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
