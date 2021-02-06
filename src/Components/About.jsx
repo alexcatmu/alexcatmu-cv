@@ -23,7 +23,7 @@ class About extends Component {
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
 
-                            <p>{this.props.data.bio}</p>
+                            <div dangerouslySetInnerHTML={{__html: this.props.data.bio}}></div>
                             <div className="row">
                                 <div className="columns contact-details">
                                     <h2>Contact Details</h2>

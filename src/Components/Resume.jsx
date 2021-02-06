@@ -16,10 +16,20 @@ class Resume extends Component {
                             <div className="row item">
                                 <div className="twelve columns">
                                     {this.props.data.education.map(education => {
-                                        return <div key={education.school}><h3>{education.school}</h3>
-                                            <p className="info">{education.degree} <span>&bull;</span><em
-                                                className="date">{education.graduated}</em></p>
-                                            <p>{education.description}</p></div>
+                                        return (
+                                            <div key={education.school}>
+                                                <h3>{education.degree}</h3>
+                                                <p className="info">{education.school} <span>&bull;</span>
+                                                    <em className="date">{education.graduated}</em></p>
+                                                <div>
+                                                    <ul>
+                                                        {education.description.map(desc => {
+                                                            return (<li>{desc}</li>)
+                                                        })}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        )
                                     })}
                                 </div>
                             </div>

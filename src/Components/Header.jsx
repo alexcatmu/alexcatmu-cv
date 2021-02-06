@@ -44,9 +44,9 @@ class Header extends Component {
                     <div className="row banner">
 
                         <div className="banner-text">
-                            <h1 className="responsive-headline">I'm {this.props.data.name}.</h1>
-                            <h3>I'm
-                                a {this.props.data.address.city} based <span>{this.props.data.occupation}</span>
+                            <h1 className="responsive-headline">{this.props.data.fullname}</h1>
+                            <h3>
+                                <span>{this.props.data.occupation}</span>
                             </h3>
                             <hr/>
                             <ul className="social">

@@ -15,11 +15,6 @@ class Footer extends Component {
                                         className={network.className}/></a></li>
                                 })}
                             </ul>
-
-                            <ul className="copyright">
-                                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                            </ul>
-
                         </div>
                         <div id="go-top"><Link style={{cursor: "pointer"}} to="home" spy={true}
                                                smooth={true} duration={750}><i className="icon-up-open"/></Link></div>
