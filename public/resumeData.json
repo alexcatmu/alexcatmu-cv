@@ -2,17 +2,13 @@
   "main": {
     "name":"Alex",
     "fullname":"Alex Catalan",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "occupation":"Software Engineer",
+    "description":"-----",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "---------",
-    "phone": "---------",
+    "bio":"--------",
+    "email": "alexcatmu@gmail.com",
     "address":{
-      "street":"---------",
-      "city":"Viladecans",
-      "state":"Barcelona",
+      "city":"Barcelona",
       "zip": "08840"
     },
     "website": "http://alexcatmu.site",
@@ -28,14 +24,20 @@
         "url":"https://github.com/alexcatmu",
         "className":"fa fa-github"
       }
-    ]
+    ],
+    "visible": {
+      "home": true,
+      "about": true,
+      "resume": true,
+      "contact": false
+    }
   },
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Universitat Politècnica de Catalunya",
-        "degree":"Computer Science",
+        "degree":"Software Engineer",
         "graduated":"September 2017 - January 2021",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
@@ -63,11 +65,6 @@
         "company":"Clickedu",
         "title":"Full Stack developer",
         "years":"April 2016 - April 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Ministry of Defence",
-        "years":"October 2013 - October 2015",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],

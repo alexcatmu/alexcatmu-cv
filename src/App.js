@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -9,39 +9,41 @@ import {connect} from "react-redux";
 
 class App extends Component {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      resumeData: {}
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            resumeData: {}
+        };
 
-  }
+    }
 
-  getResumeData(){
-    fetch('/resumeData.json')
-        .then(response => response.json())
-        .then(data => {
-          this.setState({
-            resumeData: data
-          });
-        })
-  }
+    getResumeData() {
+        fetch('/resumeData.json')
+            .then(response => response.json())
+            .then(data => {
+                this.setState({
+                    resumeData: data
+                });
+            })
+    }
 
-  componentDidMount(){
-    this.getResumeData();
-  }
+    componentDidMount() {
+        this.getResumeData();
+    }
 
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <Header data={this.state.resumeData.main}/>
+                <About data={this.state.resumeData.main}/>
+                <Resume data={this.state.resumeData.resume}/>
+                { this.state.resumeData.main && this.state.resumeData.main.visible.contact &&
+                    <Contact data={this.state.resumeData.main}/>
+                }
+                <Footer data={this.state.resumeData.main}/>
+            </div>
+        );
+    }
 }
 
 export default connect()(App);

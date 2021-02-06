@@ -9,10 +9,9 @@ class Header extends Component {
     render() {
         const visible = this.props.visible ? "fadeIn" : "fadeOut";
         const opaque = this.props.opaque ? "opaque" : "";
-
         if (this.props.data) {
             return (
-                <header id="home">
+                <header id="home" style={{minHeight: window.innerHeight}}>
                     <Waypoint
                         topOffset="250px"
                         onEnter={() => this.props.setVisible()}
@@ -32,9 +31,12 @@ class Header extends Component {
                             <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
                                       to="resume"
                                       spy={true} smooth={true} duration={750}>Resume</Link></li>
-                            <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
+
+                            {this.props.data && this.props.data.visible.contact &&
+                            <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}}
+                                      activeClass="active"
                                       to="contact"
-                                      spy={true} smooth={true} duration={750}>Contact</Link></li>
+                                      spy={true} smooth={true} duration={750}>Contact</Link></li>}
                         </ul>
 
                     </nav>
@@ -43,11 +45,14 @@ class Header extends Component {
 
                         <div className="banner-text">
                             <h1 className="responsive-headline">I'm {this.props.data.name}.</h1>
-                            <h3>I'm a {this.props.data.address.city} based <span>{this.props.data.occupation}</span>. {this.props.data.description}.</h3>
+                            <h3>I'm
+                                a {this.props.data.address.city} based <span>{this.props.data.occupation}</span>
+                            </h3>
                             <hr/>
                             <ul className="social">
                                 {this.props.data.social.map(network => {
-                                    return <li key={network.name}><a target="_blank" rel="noopener noreferrer" href={network.url}><i
+                                    return <li key={network.name}><a target="_blank" rel="noopener noreferrer"
+                                                                     href={network.url}><i
                                         className={network.className}/></a></li>
                                 })}
                             </ul>
@@ -61,8 +66,7 @@ class Header extends Component {
 
                 </header>
             );
-        }
-        else return (<div/>);
+        } else return (<div/>);
     }
 }
 

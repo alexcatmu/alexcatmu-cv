@@ -56,7 +56,7 @@ class Resume extends Component {
                             <div className="bars">
                                 <ul className="skills">
                                     {this.props.data.skills.map(skills => {
-                                        return <div className="row">
+                                        return <div key={skills.name} className="row">
                                             <div className="three columns">
                                                 <img className='skill' src={`images/tech/${skills.image}`}
                                                      alt={skills.name}/>
