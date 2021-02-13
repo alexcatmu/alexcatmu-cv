@@ -500,10 +500,10 @@ img {
 }
 
 img.skill {
-    max-width: 65%;
+    max-height: 100%;
+    max-width: 100%;
     display: inline-block;
 }
-
 img.pull-right {
     margin: 12px 0 0 18px;
 }
@@ -969,6 +969,12 @@ properly.
         clear: left;
     }
 
+    img.skill {
+        max-height: 100px;
+        max-width: 130px;
+        display: inline-block;
+    }
+
 }
 
 /* mobile wide/smaller tablets
@@ -1057,6 +1063,14 @@ properly.
         width: auto;
     }
 
+    img.skill {
+        max-height: 150px;
+        max-width: 250px;
+    }
+
+    .nine.columns.main-col.inside{
+        padding:0 30px !important;
+    }
 }
 
 /* larger screens

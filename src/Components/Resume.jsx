@@ -44,11 +44,19 @@ class Resume extends Component {
 
                         <div className="nine columns main-col">
                             {this.props.data.work.map(work => {
-                                return <div key={work.company}><h3>{work.company}</h3>
-                                    <p className="info">{work.title}<span>&bull;</span> <em
-                                        className="date">{work.years}</em></p>
-                                    <p>{work.description}</p>
-                                </div>
+                                return (
+                                    <div key={work.company}><h3>{work.company}</h3>
+                                        <p className="info">{work.title}<span>&bull;</span>
+                                            <em className="date">{work.years}</em>
+                                        </p>
+                                        <div>
+                                            <ul>
+                                                {work.description.map(desc => {
+                                                    return (<li>{desc}</li>)
+                                                })}
+                                            </ul>
+                                        </div>
+                                    </div>)
                             })}
                         </div>
                     </div>
@@ -60,25 +68,20 @@ class Resume extends Component {
                         </div>
 
                         <div className="nine columns main-col">
-
-                            <p>{this.props.data.skillmessage}
-                            </p>
-                            <div className="bars">
-                                <ul className="skills">
-                                    {this.props.data.skills.map(skills => {
-                                        return <div key={skills.name} className="row">
-                                            <div className="three columns">
-                                                <img className='skill' src={`images/tech/${skills.image}`}
-                                                     alt={skills.name}/>
-                                            </div>
-                                            <div className="nine columns main-col">
-                                                <h5>{skills.name}</h5>
-                                                <p>{skills.description}</p>
-                                            </div>
+                            {this.props.data.skills.map(skills => {
+                                return (
+                                    <div key={skills.name} className="row">
+                                        <div className="three columns">
+                                            <img className='skill' src={`images/tech/${skills.image}`}
+                                                 alt={skills.name}/>
                                         </div>
-                                    })}
-                                </ul>
-                            </div>
+                                        <div className="nine columns">
+                                            <h5>{skills.name}</h5>
+                                            <p>{skills.description}</p>
+                                        </div>
+                                    </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </section>

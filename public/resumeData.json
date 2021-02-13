@@ -6,7 +6,7 @@
     "description":"-----",
     "image":"profilepic.jpg",
     "bio":"<p>Soy graduado en informática, especializado en ingeniería del software. Soy desarrollador junior, con experiencia en frontend y backend. Tengo especial entusiasmo en patrones de diseño y calidad del código.</p><p>He participado en varias Hackathons, me encanta aprender del resto, trabajar en equipo y superar retos</p><p>Me considero una persona ambiciosa y con muchas ganas de seguir aprendiendo",
-    "email": "alexcatmu@gmail.com",
+    "email": "",
     "address":{
       "city":"Barcelona",
       "zip": "08840"
@@ -33,7 +33,6 @@
     }
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Universitat Politècnica de Catalunya",
@@ -64,55 +63,56 @@
         "company":"Inlab FIB",
         "title":"Full Stack developer",
         "years":"Octubre 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":[
+          "WEB para visualizar, comparar y clasificar resultados de ensayos de microbiología",
+          "Frontend y backend para la visualización de modelos de simulación. Desarrollado con PostgreSQL, Spring y Angular",
+          "Aplicación móvil multiplataforma (IONIC). Notifica a los usuarios de posibles catástrofes naturales y las acciones que se deben tomar",
+          "Interfaz WEB desarrollada en React. Automatización de procesos, alarmas y protocolos de actuación de los datos que se reciben de distintos sensores"
+        ]
       },
       {
         "company":"BSC (Barcelona Supercomputing Center)",
         "title":"Full Stack developer",
         "years":"April 2018 - October 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":[
+          "Desarrollo de una aplicacion móvil multiplataforma desarrollada en IONIC"
+        ]
       },
       {
         "company":"Clickedu",
         "title":"Full Stack developer",
         "years":"April 2016 - April 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":[
+          "Resolución de incidencias en la WEB. UX, backend, frontend y estilos",
+          "Nuevas funcionalidades y módulos en la web",
+          "Automatización de procesos e implementación de Tests en la plataforma"
+        ]
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
-        "image":"git.png"
+        "name":"Angular",
+        "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "image":"angular.png"
       },
       {
-        "name":"Java",
+        "name":"Ionic",
         "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
-        "image":"java.png"
+        "image":"ionic.png"
       },
       {
         "name":"Django",
-        "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
         "image":"django.png"
       },
       {
-        "name":"React Js",
-        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
-        "image":"react.png"
-      },
-      {
-        "name":"Redux",
-        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
-        "image":"redux.png"
-      },
-      {
-        "name":"MongoDB",
-        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
-        "image":"mongodb.png"
+        "name":"Spring",
+        "description":"I am fairly new to Remoact and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "image":"spring.png"
       },
       {
         "name":"Others",
-        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "description":"React js, C++, PHP, SQL y NoSQL, GIT",
         "image":"others.png"
       }
     ]
