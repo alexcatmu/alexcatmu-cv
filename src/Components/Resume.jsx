@@ -23,8 +23,8 @@ class Resume extends Component {
                                                     <em className="date">{education.graduated}</em></p>
                                                 <div>
                                                     <ul>
-                                                        {education.description.map(desc => {
-                                                            return (<li>{desc}</li>)
+                                                        {education.description.map((desc, index) => {
+                                                            return (<li key={index}><span role='img' aria-label='arrow'>✅</span>️️ {desc}</li>)
                                                         })}
                                                     </ul>
                                                 </div>
@@ -51,8 +51,8 @@ class Resume extends Component {
                                         </p>
                                         <div>
                                             <ul>
-                                                {work.description.map(desc => {
-                                                    return (<li>{desc}</li>)
+                                                {work.description.map((desc, index) => {
+                                                    return (<li key={index}><span role='img' aria-label='arrow'>➡</span>️️ {desc}</li>)
                                                 })}
                                             </ul>
                                         </div>

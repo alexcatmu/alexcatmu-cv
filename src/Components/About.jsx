@@ -24,19 +24,6 @@ class About extends Component {
                             <h2>About Me</h2>
 
                             <div dangerouslySetInnerHTML={{__html: this.props.data.bio}}></div>
-                            <div className="row">
-                                <div className="columns contact-details">
-                                    <h2>Contact Details</h2>
-                                    <p className="address">
-                                        <span>{this.props.data.fullname}</span><br/>
-                                        <span>
-                                            {this.props.data.address.city}, {this.props.data.address.zip}
-                                        </span>
-                                        <br/>
-                                        <span>{this.props.data.email}</span>
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
